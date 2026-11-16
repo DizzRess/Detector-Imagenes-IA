@@ -1,0 +1,26 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Cachés de Python
+__pycache__/
+*.py[cod]
+
+# Conjuntos de datos e imágenes de prueba
+CIFAKE/
+datos/
+imagenes_prueba/
+dataset/
+
+# Modelos y pesos
+*.pth
+*.pt
+weights/
+
+# Excepción: modelo principal utilizado por la interfaz
+!mobilenet_cifake_v2.pth
+
+# Archivos temporales y configuración local
+*.log
+.env
